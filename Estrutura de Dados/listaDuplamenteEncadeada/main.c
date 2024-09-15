@@ -78,7 +78,7 @@ void inseriorPosicaoDeterminada(struct No** cabeca, struct No** ponta, int infor
     }
 
     if(posicao < 0){
-        printf("Você esta tentando inserir em uma posição não existente. Por favor tente realizar a operação novamente.\n");
+        printf("Você esta tentando inserir em uma posição menor que a posição inicial. Por favor tente realizar a operação novamente.\n");
         return;
     }
 
